@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.13.7 on win32)" generated="2026-03-28T13:17:13.491545" rpa="false" schemaversion="5">
+<suite id="s1" name="Js Executor2" source="C:\Users\siddh\PycharmProjects\PythonProject\RobotFramework\28-03-26\js_executor2.robot">
+<test id="s1-t1" name="Screenshots" line="8">
+<kw name="Set Screenshot Directory" owner="SeleniumLibrary">
+<arg>C:\\Users\\siddh\\PycharmProjects\\PythonProject\\RobotFramework\\28-03-26/SS</arg>
+<doc>Sets the directory for captured screenshots.</doc>
+<status status="PASS" start="2026-03-28T13:17:13.661517" elapsed="0.000288"/>
+</kw>
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-03-28T13:17:13.662594" level="INFO">Opening browser 'chrome' to base url 'https://in.bookmyshow.com/explore/home/jaipur'.</msg>
+<arg>${url}</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-03-28T13:17:13.662336" elapsed="3.043010"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-03-28T13:17:16.706360" elapsed="0.042113"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-03-28T13:17:20.750418" level="INFO">Slept 4 seconds.</msg>
+<arg>4s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-03-28T13:17:16.749038" elapsed="4.001895"/>
+</kw>
+<kw name="Scroll Element Into View" owner="SeleniumLibrary">
+<arg>xpath=//div[text()="Dhurandhar The Revenge"]</arg>
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<status status="PASS" start="2026-03-28T13:17:20.752527" elapsed="0.321715"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-03-28T13:17:23.077362" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-03-28T13:17:21.075244" elapsed="2.002612"/>
+</kw>
+<kw name="Capture Element Screenshot" owner="SeleniumLibrary">
+<msg time="2026-03-28T13:17:23.293343" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="../SS/dhurandhar.png"&gt;&lt;img src="../SS/dhurandhar.png" width="400px"&gt;&lt;/a&gt;</msg>
+<arg>xpath=//img[@alt="Dhurandhar The Revenge"]</arg>
+<arg>dhurandhar.png</arg>
+<doc>Captures a screenshot from the element identified by ``locator`` and embeds it into log file.</doc>
+<status status="PASS" start="2026-03-28T13:17:23.079081" elapsed="0.214594"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-03-28T13:17:25.295192" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-03-28T13:17:23.294373" elapsed="2.001046"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-03-28T13:17:25.296275" elapsed="2.279359"/>
+</kw>
+<status status="PASS" start="2026-03-28T13:17:13.660108" elapsed="13.916731"/>
+</test>
+<status status="PASS" start="2026-03-28T13:17:13.492625" elapsed="14.085824"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Js Executor2" id="s1" pass="1" fail="0" skip="0">Js Executor2</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
